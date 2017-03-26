@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+body {
+	width:100%;
+	margin:0;
+	padding:0;
+	background-color: #FDFFFC;
+}
+html{
+	margin:0;
+	padding:0;
+}
+header {
+	background-color:black;
+	height:10rem;
+	width:100%;
+	font-family: 'Gloria Hallelujah';
+	padding: 5% 0;
+	margin:0;
+	padding-bottom: 8%;
+}
+h1 {
+	color:white;
+	text-align: right;
+	margin-bottom: 2%;
+	font-size: 3.5rem;
+	letter-spacing: .5rem;
+	padding-right:5%;
+}
+img {
+	width:80%;
+	height:auto;
+	margin-left:9%;
+	margin-top:25%;
+	border-radius: 10%
+}
+nav {
+	background-color: black;
+	width:35%;
+	height:40rem;
+}
+button {
+	margin:0 auto;
+	font-size: 1rem;
+	font-family: 'Gloria Hallelujah';
+	border-radius: 11px;
+	margin-left: 30%;
+	margin-top:10%;
+	background-color: white;
+}
+
+@media screen and (max-width:810px){
+	h1 {
+		font-size:3rem;
+		
+	}
+	header {
+		padding-bottom:15%;
+		padding-top:10%;
+	}
+	button {
+		margin-left:12%;
+	}
+}
